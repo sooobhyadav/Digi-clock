@@ -1,0 +1,32 @@
+.body {
+    background-color: #212121;
+    color: #fff;
+  }
+  .center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #clock {
+    font-size: 40px;
+    padding: 20px 50px;
+    margin-top: 10px;
+    
+  }
+
+  #TimeButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #TimeButton:hover {
+    background-color: #45a049;
+  }
